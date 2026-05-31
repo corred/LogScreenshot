@@ -24,6 +24,7 @@ powershell "$x=(New-Object -ComObject WScript.Shell).CreateShortcut('%APPDATA%\M
 
 ## Installation for Linux
 1) Install Libnotify, smbclient, Scrot
+
 Debian
 ```
 $ sudo apt-get install libnotify-bin smbclient scrot -y
