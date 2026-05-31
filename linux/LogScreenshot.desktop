@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=LogScreenshot.sh
+Type=Application
+Name=LogScreenshot
+GenericName=LogScreenshot
+Categories=Utility;
