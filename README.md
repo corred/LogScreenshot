@@ -10,9 +10,7 @@ LogScreenshot is a simple script for Windows and Linux that takes screenshots an
 1) Download the LogScreenshot\windows folder from the repository.
 screenCapture.exe - this is a console application for taking screenshots, compiled from this bat file: https://github.com/npocmaka/batch.scripts/blob/master/hybrids/.net/c/screenCapture.bat
 2) Save the Log Screenshot folder either locally on the user's computer or in a shared folder on the server.
-3) change in LogScreenshot.bat:
-workPath - The working folder where LogScreenshot is located
-savePath - where screenshots and logs will be placed
+3) Change in LogScreenshot.bat: workPath - The working folder where LogScreenshot is located, savePath - where screenshots and logs will be placed.
 4) Create a shortcut for LogScreenshot.bat. The shortcut should point to the working folder, with the window mode set to Minimized. You can add hotkeys.
 Place it in the Start menu.
 
@@ -35,6 +33,7 @@ $ sudo dnf install libnotify samba-client scrot -y
 ```
 
 2) Install LogScreenshot
+
 Download LogScreenshot.desktop and LogScreenshot.sh from the LogScreenshot\linux folder in the repository.
 
 Open LogScreenshot.sh for editing.
